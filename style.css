@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {display: flex;}
+aside{
+    background-color: aquamarine;
+    background-size: contain;
+}
+li {
+    display: flex;
+    align-items: center;
+}
+.contact img {
+    width: 15%;
+}
+main  {
+    background-color: blueviolet;
+background-size: contain;
+
+}
+.chat-header {
+    display: flex;
+    align-items: center;
+}
+
+.chat-header img  {
+    width: 15%;
+}
+.chat-message-header {
+    display: flex;}
+
+.message-sent {
+display: flex;
+justify-content: end;
+}
+.chat-footer {
+        background-color:cornflowerblue;
+        padding: 20px;
+        display: flex;
+        justify-content: start;
+}
